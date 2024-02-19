@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>I Bike</title>
+    <!--Import css-->
+    <link rel="stylesheet" href="css/ibike.css">
+    <!--iMPORT topnav-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--link font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="bgimage" src="images/Headerbg.jpg" alt="Bike steering wheel image">
+
+        <div class="topnav" id="myTopnav">
+            <a href="Main.html"><img class="home" src="Images/Untitled-7.png"></a>
+            <a href="services.html">Services</a>
+            <a href="social.html">Social</a>
+            <a href="Sitemap.html">Sitemap</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
+                    }
+                </script>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h1 class="hdr1" id="l1">Who are we?</h1>
+        <div class="flex1">
+            <!--side bar-->
+            <div class="flex5">
+            
+            <a class="b1" href="#l1">Who are we?</a>
+            <a class="b1" href="#l2">Profits</a> 
+            <div class="b3"><a class="b1" href="#l3">Membership</a>
+            <a class="b1 b2" href="https://docs.google.com/forms/d/e/1FAIpQLSecLCBhCjqu0MMYpja4QeYei4Tt00FFF3Ki6lKv6jqr7AcAdA/viewform?usp=sf_link">Join us form</a></div>
+            <a class="b1 mainhov" href="#l4">Event rules</a>
+            
+            </div>
+            <!--/side bar-->
+            <p class="txtp">We are the union of bike shops all around Dublin, we try to popularize the cycling culture
+                by setting up events. Cycling is one of the most ecological ways to move around the city, it
+                significantly reduces the release of CO2 gas into the atmosphere comparing to any type of car even if
+                it’s electric.</p>
+            <video class="vid1" autoplay muted loop src="videos/pexels_videos_2360938 (2160p).mp4" width="50%"></video>
+        </div>
+        <h1 class="hdr2" id="l2">What are the profits for you?</h1>
+        <div class="flex2">
+            <img class="img2" src="Images/bikes.jpg" alt="Bikes image">
+            <p class="txtp">Being a member of the cycling community means having a lot of profits like free bike
+                servicing and having privileged access to our events, don’t forget about the prizes such as grants or
+                trips which you can receive by winning our competitions. Also, you will be able to take part in the
+                organization of our events.</p>
+        </div>
+        <h1 class="hdr3" id="l3">Becoming a member</h1>
+        <div class="flex4">
+            <p class="txtp">To become a member, you can fill in <a class="frm1" href="https://docs.google.com/forms/d/e/1FAIpQLSecLCBhCjqu0MMYpja4QeYei4Tt00FFF3Ki6lKv6jqr7AcAdA/viewform?usp=sf_link">the membership form</a>, then you will be contacted by our admins to
+                submit your application. Then you will receive a membership card which will allow you to get discounts in shops and
+                participate in our events.</p>
+                <img class="img2" src="Images/membership.jpg" alt="Bikes image">
+        </div>
+        <h1 class="hdr2" id="l4">Event rules</h1>
+        <div class="flex2">
+            <img class="img2" src="Images/rules.jpg" alt="Bikes image">
+            <p class="txtp"><dl>
+                <li>Participants must use a bicycle in good working condition.</li>
+                <li>Helmets are mandatory and must comply with safety standards.</li>
+                <li>Obey the official start signal.</li>
+                <li>Respect traffic rules and signals if applicable.</li>
+                <li>one ticket-one person</li>
+                <li>Riders must follow the designated course and not take shortcuts.</li>
+                <li>Maintain a safe distance from the rider in front, if drafting is not allowed.</li>
+                <li>Adherence to anti-doping rules and regulations is mandatory.</li>
+                <li>Follow rules regarding feeding zones.</li>
+                <li>Respect the environment and follow any rules related to environmental protection.</li>
+            </dl></p>
+        </div>
+    </main>
+    <footer>
+        <div class="txtf">
+            <p>Email us at: <a class="textdec" href="mailto: IbikeDublin@gmail.com">IbikeDublin@gmail.com</a></p>
+            <p>Call us at: +3531234567</p>
+            <p>More information is on our <a class="textdec" href="contact.html">contact</a> page.</p>
+        </div>
+        <p class="footer-all">©2023 Illia Stefanovskyi. All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>

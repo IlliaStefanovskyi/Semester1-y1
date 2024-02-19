@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>I Bike/eco-scheme</title>
+  <!--Import css-->
+  <link rel="stylesheet" href="css/ibike.css">
+  <!--iMPORT topnav-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <img class="bgimage" src="images/Headerbg.jpg" alt="Bike steering wheel image">
+
+    <div class="topnav" id="myTopnav">
+      <a href="Main.html"><img class="home" src="Images/Untitled-7.png"></a>
+      <a href="services.html">Services</a>
+      <a href="social.html">Social</a>
+      <a href="Sitemap.html">Sitemap</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
+      </a>
+    </div>
+  </header>
+  <main>
+    <div class="flex11">
+      <div class="flex12">
+        <dl class="ref1">
+          <h1><a class="sitemap1" href="Main.html">Home</a></h1>
+          <li>Who are we?</li>
+          <li>What are the profits for you?</li>
+          <li>Becoming a member</li>
+          <dd>
+            <li>Becoming a member form</li>
+          </dd>
+          <li>Event rules</li>
+        </dl>
+        <dl class="ref1">
+          <h1><a class="sitemap1" href="social.html">Social</a></h1>
+          <li><a href="#l1">Events</a></li>
+          <ul>
+            <li><a href="#l2">Bike & Dub</a></li>
+            <li><a href="#l2">Audacity</a></li>
+          </ul>
+          <li>Our social media</li>
+        </dl>
+      </div>
+      <div class="flex13">
+        <dl class="ref1">
+          <h1><a class="sitemap1" href="services.html">Services</a></h1>
+          <li><a href="#l1">Where to purchase?</a></li>
+          <li><a href="#l2">Annual servicing</a></li>
+          <li><a href="#l3">Repairs</a></li>
+
+          <li><a href="#l4">customization</a></li>
+        </dl>
+        <dl class="ref1">
+          <h1><a class="sitemap1" href="contact.html">Contact</a></h1>
+          <li>You can find us here</li>
+          <ul>
+            <li>Address, schedule</li>
+            <li>Email</li>
+            <li>Phone number</li>
+          </ul>
+          <li>Our social media:</li>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+          </ul>
+        </dl>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="txtf">
+      <p>Email us at: <a class="textdec" href="mailto: IbikeDublin@gmail.com">IbikeDublin@gmail.com</a></p>
+      <p>Call us at: +3531234567</p>
+      <p>More information is on our <a class="textdec" href="contact.html">contact</a> page.</p>
+    </div>
+    <p class="footer-all">©2023 Illia Stefanovskyi. All rights reserved</p>
+  </footer>
+</body>
+
+</html>
