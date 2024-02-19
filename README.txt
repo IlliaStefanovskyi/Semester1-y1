@@ -1,0 +1,1 @@
+This is my first university project on Web Development subject, the main point about it was using the tags required in the assesment, not the design or functionality. But this still is a good project to start with.
